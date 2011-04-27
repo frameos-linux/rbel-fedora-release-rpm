@@ -1,0 +1,13 @@
+[rbel-fedora]
+name = RBEL Fedora Repo
+baseurl = http://rbel.frameos.org/fedora/stable/$releasever/$basearch
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-RBEL
+gpgcheck = 1
+enabled = 1
+
+[rbel-fedora-testing]
+name = RBEL Fedora Testing Repo
+baseurl = http://rbel.frameos.org/fedora/testing/$releasever/$basearch
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-RBEL
+gpgcheck = 1
+enabled = 0
